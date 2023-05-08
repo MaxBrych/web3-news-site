@@ -112,7 +112,7 @@ const Home: NextPage = () => {
         >
           Submit Article
         </Web3Button>
-        <h1>Articles</h1>
+        <h1>Recent Articles</h1>
         {listings.map((article) => (
           <ArticleList key={article.id} article={article} />
         ))}
